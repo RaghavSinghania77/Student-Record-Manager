@@ -1,9 +1,26 @@
+# Ignore build outputs
 /build/
-nbproject/private/
-/dist/
-*.class
-*.jar
-*.log
-*.iml
-.DS_Store
+*/build/
+**/build/
 
+# Ignore NetBeans private configuration
+/nbproject/private/
+/dist/
+
+# Ignore class files
+*.class
+
+# Ignore generated JARs (you can keep this if you're sharing the final JAR)
+*.jar
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE-related files (optional)
+/*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
